@@ -13,6 +13,7 @@ android {
         versionCode = 1
         versionName = "1.0"
         viewBinding.enable = true
+        vectorDrawables.useSupportLibrary = true
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -33,8 +34,10 @@ android {
 }
 
 dependencies {
+    implementation("com.airbnb.android:lottie:6.4.0")
     implementation("com.journeyapps:zxing-android-embedded:4.3.0")
     implementation("com.google.zxing:core:3.3.0")
+    implementation("com.google.mlkit:barcode-scanning:17.0.2")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

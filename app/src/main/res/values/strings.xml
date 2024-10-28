@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">My QR Scanner</string>
+    <string name="app_name">QR сканер</string>
+    <string name="our_telegramm">Наш телеграм канал</string>
 </resources>
